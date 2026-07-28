@@ -44,6 +44,19 @@ export const BM_CONFIG = [
       { id: 'act_1793423111547017', name: 'Falatória Claude' },
     ],
   },
+  {
+    id: 'b3g',
+    slug: 'b3g',
+    name: 'B3G Incorporadora',
+    color: '#10B981',
+    letter: 'B',
+    businessId: '828085376362013',
+    accounts: [
+      { id: 'act_993570016560751', name: 'B3G' },
+      { id: 'act_2168495447218568', name: 'Residencial Canadá' },
+      { id: 'act_1009450441868665', name: 'Cobertura Biarritz' },
+    ],
+  },
 ]
 
 export type BMConfigEntry = typeof BM_CONFIG[number]

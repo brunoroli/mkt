@@ -8,6 +8,7 @@ const TOKEN_BY_SLUG: Record<string, string | undefined> = {
   'brn-mkt':            process.env.META_TOKEN_BRN_MKT,
   'prime-hero-academy': process.env.META_TOKEN_PRIME_HERO,
   'falatoria-claude':   process.env.META_TOKEN_FALATORIA,
+  'b3g':                process.env.META_TOKEN_B3G,
 }
 
 function getToken(slug: string): string {
