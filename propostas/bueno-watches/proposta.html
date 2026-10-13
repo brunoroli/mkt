@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Proposta Comercial · blue B × Bueno Watches — Conteúdo Mensal</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #16181d;
+    --blue: #2864db;
+    --blue-soft: #5b8df0;
+    --muted: #6b6f78;
+    --line: #e6e7ea;
+    --card: #f6f7f4;
+    --dark-card: #1a1c21;
+  }
+  body { font-family: "Liberation Sans", Arial, Helvetica, sans-serif; color: var(--ink); -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 210mm; height: 297mm; position: relative; overflow: hidden; page-break-after: always; background: #fff; }
+  .page:last-child { page-break-after: auto; }
+
+  /* ---------- cover ---------- */
+  .cover { background:
+      radial-gradient(60% 40% at 78% 14%, rgba(40,100,219,.34) 0%, rgba(40,100,219,0) 70%),
+      radial-gradient(50% 30% at 10% 40%, rgba(40,100,219,.10) 0%, rgba(40,100,219,0) 70%),
+      linear-gradient(180deg, #181c26 0%, #16181d 55%, #15171c 100%);
+    color: #fff; }
+  .cover::before { content:""; position:absolute; left:0; top:0; bottom:0; width:1.2mm; background: linear-gradient(180deg,#2f6bea,#16181d); }
+  .cover .logo { position:absolute; left:14mm; top:11mm; height:10mm; }
+  .cover .valid { position:absolute; right:14mm; top:15mm; text-align:right; font-size:6.3pt; letter-spacing:.28em; color:#6f7480; line-height:1.9; }
+  .cover .kicker { position:absolute; left:14mm; top:51mm; font-size:6.5pt; letter-spacing:.42em; color: var(--blue-soft); font-weight:700; }
+  .cover h1 { position:absolute; left:14mm; top:62mm; font-size:40pt; line-height:1.0; letter-spacing:-.03em; font-weight:700; }
+  .cover h1 span { color: var(--blue-soft); display:block; }
+  .cover .lead { position:absolute; left:14mm; top:104mm; width:112mm; font-size:10.4pt; line-height:1.55; color:#7c818c; }
+  .cover .bar { position:absolute; left:14mm; top:126mm; width:12mm; height:.7mm; background: var(--blue); }
+  .cover .meta { position:absolute; left:14mm; top:134mm; width:150mm; display:grid; grid-template-columns: 1fr 1fr; row-gap:7mm; column-gap:8mm; }
+  .cover .meta small { display:block; font-size:5.8pt; letter-spacing:.34em; color:#6f7480; margin-bottom:1.6mm; font-weight:700; }
+  .cover .meta b { display:block; font-size:10.4pt; }
+  .cover .meta i { display:block; font-style:normal; font-size:7.8pt; color:#6f7480; margin-top:.8mm; }
+  .cover svg.deco { position:absolute; right:-6mm; bottom:14mm; width:96mm; opacity:.5; }
+  .cover .pg { position:absolute; right:14mm; bottom:9mm; font-size:6pt; letter-spacing:.2em; color:#4a4f5a; }
+  .cover .foot { position:absolute; left:0; right:0; bottom:0; height:1.2mm; background: linear-gradient(90deg,#2f6bea 0%, #5b8df0 45%, rgba(91,141,240,0) 100%); }
+
+  /* ---------- inner pages ---------- */
+  .top { position:absolute; left:0; right:0; top:0; height:18mm; border-bottom:.25mm solid var(--line); border-top:.4mm solid var(--ink); }
+  .top img { position:absolute; left:14mm; top:5.5mm; height:7mm; }
+  .top span { position:absolute; right:14mm; top:8mm; font-size:5.8pt; letter-spacing:.2em; color:#8a8d95; text-transform:uppercase; }
+  .bottom { position:absolute; left:0; right:0; bottom:0; height:11mm; border-top:.25mm solid var(--line); }
+  .bottom span { position:absolute; left:14mm; top:4.4mm; font-size:5.8pt; color:#8a8d95; }
+  .bottom b { position:absolute; right:14mm; top:4.1mm; font-size:6.3pt; color:var(--muted); letter-spacing:.14em; }
+  .body { position:absolute; left:14mm; right:14mm; top:26mm; bottom:16mm; }
+  .eyebrow { display:flex; align-items:center; gap:3mm; font-size:6pt; letter-spacing:.34em; color:var(--muted); font-weight:700; }
+  .eyebrow em { font-style:normal; color:var(--blue); }
+  .eyebrow i { display:block; width:7mm; height:.25mm; background: var(--blue); }
+  h2 { font-size:22pt; line-height:1.08; letter-spacing:-.025em; margin:7mm 0 5mm; font-weight:700; }
+  h2 span { color: var(--blue); }
+  p { font-size:8.5pt; line-height:1.85; color:#4a4d55; margin-bottom:3.6mm; }
+
+  .dark { background: var(--ink); color:#fff; border-radius:3.5mm; position:relative; overflow:hidden; }
+  .dark::before { content:""; position:absolute; left:0; top:0; width:55%; height:.5mm; background: linear-gradient(90deg,var(--blue),rgba(40,100,219,0)); }
+  .label { font-size:5.8pt; letter-spacing:.34em; font-weight:700; color: var(--blue-soft); }
+  .sched { padding:6mm 7mm 6.5mm; margin-top:6mm; }
+  .sched p { color:#b4b7bf; margin:3mm 0 5mm; font-size:8.4pt; }
+  .sched .grid { display:grid; grid-template-columns:1fr 1fr; gap:3mm; }
+  .sched .item { background:#212328; border-radius:2.2mm; padding:3.4mm 4.2mm 3.4mm 7mm; font-size:7.5pt; line-height:1.55; color:#a9acb4; position:relative; }
+  .sched .item::before { content:""; position:absolute; left:3.4mm; top:4.4mm; width:1.1mm; height:1.1mm; border-radius:50%; background: var(--blue); }
+
+  .deliv { margin-top:6mm; }
+  .row { display:grid; grid-template-columns: 11mm 1fr auto; column-gap:0; padding:3.4mm 0 3.6mm; border-bottom:.25mm solid var(--line); }
+  .row:last-child { border-bottom:none; }
+  .row .n { font-size:6.3pt; color:var(--blue); font-weight:700; letter-spacing:.1em; padding-top:.6mm; }
+  .row h3 { font-size:9.4pt; font-weight:700; }
+  .row .price { font-size:9.4pt; font-weight:700; color:var(--blue); text-align:right; white-space:nowrap; }
+  .row p { grid-column:2 / 4; font-size:7.5pt; line-height:1.85; color:#7a7d85; margin:1.1mm 0 0; }
+  h4 { font-size:11.6pt; margin:9mm 0 4.5mm; letter-spacing:-.01em; }
+  .checks { display:grid; grid-template-columns:1fr 1fr; row-gap:3.6mm; column-gap:6mm; }
+  .check { display:flex; align-items:center; gap:2.6mm; font-size:7.9pt; }
+  .check svg { width:4.7mm; height:4.7mm; flex:none; }
+
+  .total { padding:6.5mm 7mm 6mm; margin-top:6mm; }
+  .total .big { display:flex; align-items:baseline; gap:2mm; margin-top:4.5mm; }
+  .total .big s { text-decoration:none; font-size:14pt; font-weight:700; color:var(--blue-soft); }
+  .total .big b { font-size:38pt; letter-spacing:-.04em; line-height:1; }
+  .total .big span { font-size:8.4pt; color:#7c818c; margin-left:2mm; }
+  .total hr { border:none; border-top:.25mm solid #2d3037; margin:5mm 0 3.6mm; }
+  .total p { color:#8e929b; font-size:7.4pt; margin:0; line-height:1.8; }
+  .lines { margin-top:4.5mm; }
+  .line { display:flex; justify-content:space-between; padding:3mm 0 3mm; border-bottom:.25mm solid var(--line); }
+  .line b { font-size:8.8pt; display:block; }
+  .line small { font-size:7.2pt; color:#7a7d85; display:block; margin-top:.6mm; }
+  .line > span { font-size:8.8pt; font-weight:700; }
+  .grand { display:flex; justify-content:space-between; align-items:center; border-top:.5mm solid var(--blue); padding-top:3mm; margin-top:0; }
+  .grand b { font-size:8.6pt; }
+  .grand span { font-size:11.6pt; font-weight:700; color:var(--blue); }
+  .bonus { margin-top:9mm; background: var(--card); border-left:.8mm solid var(--blue); border-radius:2.4mm; padding:5mm 6mm 5.4mm; border-top:.2mm solid #ececea; border-right:.2mm solid #ececea; border-bottom:.2mm solid #ececea; }
+  .bonus .hd { display:flex; justify-content:space-between; align-items:center; margin-bottom:4.2mm; }
+  .bonus .hd b { font-size:9.2pt; }
+  .bonus .hd span { font-size:5.4pt; letter-spacing:.2em; color:var(--blue); font-weight:700; }
+  .bonus ul { list-style:none; display:grid; grid-template-columns:1fr 1fr; row-gap:2.6mm; column-gap:4mm; }
+  .bonus li { font-size:7.6pt; padding-left:4mm; position:relative; }
+  .bonus li::before { content:""; position:absolute; left:0; top:1.2mm; width:1.2mm; height:1.2mm; border-radius:50%; background: var(--blue); }
+
+  .cards { display:grid; grid-template-columns:1fr 1fr; gap:2.4mm; margin-top:5mm; }
+  .card { background: var(--card); border-radius:2.6mm; padding:3.4mm 4.4mm 3.6mm; border:.2mm solid #eeeeec; }
+  .card small { display:block; font-size:5.2pt; letter-spacing:.3em; color:var(--blue); font-weight:700; margin-bottom:1.6mm; }
+  .card b { display:block; font-size:8.8pt; }
+  .card i { display:block; font-style:normal; font-size:7pt; color:#7a7d85; margin-top:.8mm; }
+  .card.cond b { font-size:8.2pt; }
+  h4.t2 { margin:7mm 0 0; }
+  .sign { background: var(--card); border-radius:3mm; padding:5mm 6mm 5.6mm; margin-top:6mm; }
+  .sign b.t { font-size:9pt; }
+  .sign p { font-size:7.4pt; margin:2mm 0 8mm; color:#7a7d85; line-height:1.7; }
+  .sign .cols { display:grid; grid-template-columns:1fr 1fr; column-gap:6mm; }
+  .sign .l { border-top:.25mm solid #9a9da5; padding-top:2.2mm; }
+  .sign .l b { display:block; font-size:8.2pt; }
+  .sign .l i { display:block; font-style:normal; font-size:7pt; color:#7a7d85; margin-top:.6mm; }
+  .contact { position:absolute; left:0; right:0; bottom:11mm; height:8.4mm; background:#0b0c10; color:#8e929b; font-size:7.2pt; display:flex; align-items:center; gap:10mm; padding-left:14mm; }
+</style>
+</head>
+<body>
+
+<!-- ============ 01 · CAPA ============ -->
+<section class="page cover">
+  <img class="logo" src="logo-white.png" alt="blue B">
+  <div class="valid">VÁLIDA POR 7 DIAS<br>13 DE OUTUBRO DE 2026</div>
+  <div class="kicker">PROPOSTA COMERCIAL</div>
+  <h1>Conteúdo mensal<span>Bueno Watches</span></h1>
+  <div class="lead">8 vídeos e 10 fotos publicitárias por mês, com captação profissional, edição dinâmica e entrega pensada para o Instagram da Bueno Watches.</div>
+  <div class="bar"></div>
+  <div class="meta">
+    <div><small>PREPARADO POR</small><b>Blue B · Marketing e Vendas</b><i>Brasília-DF · contato@bluebmkt.com.br</i></div>
+    <div><small>PREPARADO PARA</small><b>Bueno Watches</b><i>@bueno_watches</i></div>
+    <div><small>DATA</small><b>Outubro de 2026</b></div>
+    <div><small>VALIDADE</small><b>7 dias</b></div>
+  </div>
+  <!-- ilustração em linha: relógio -->
+  <svg class="deco" viewBox="0 0 400 300" fill="none" stroke="#3a3e48" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 20 h100 l12 70 h-124 z"/>
+    <path d="M138 210 h124 l-12 70 h-100 z"/>
+    <circle cx="200" cy="150" r="78"/>
+    <circle cx="200" cy="150" r="64"/>
+    <path d="M200 150 V104 M200 150 L232 168"/>
+    <circle cx="200" cy="150" r="4"/>
+    <path d="M200 90 v8 M200 202 v8 M140 150 h8 M252 150 h8"/>
+    <path d="M278 144 h14 v12 h-14"/>
+    <path d="M330 60 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 l14 -6 z"/>
+    <path d="M70 190 l5 11 l11 5 l-11 5 l-5 11 l-5 -11 l-11 -5 l11 -5 z"/>
+    <path d="M360 230 l4 9 l9 4 l-9 4 l-4 9 l-4 -9 l-9 -4 l9 -4 z"/>
+  </svg>
+  <div class="pg">01 / 05</div>
+  <div class="foot"></div>
+</section>
+
+<!-- ============ 02 · APRESENTAÇÃO ============ -->
+<section class="page">
+  <div class="top"><img src="logo-dark.png" alt="blue B"><span>Proposta comercial · Bueno Watches</span></div>
+  <div class="body">
+    <div class="eyebrow"><em>01</em><i></i>APRESENTAÇÃO</div>
+    <h2>Conteúdo constante que<br>valoriza a <span>Bueno Watches</span></h2>
+    <p>Esta proposta apresenta o escopo e o investimento para a produção audiovisual mensal da Bueno Watches: 8 vídeos e 10 fotos publicitárias por mês, produzidos a partir de 1 a 2 diárias de captação, para abastecer o Instagram @bueno_watches com conteúdo de qualidade e regularidade.</p>
+    <p>Seguimos o padrão blue B de produção: captação profissional, áudio de qualidade, colorização e edição dinâmica voltada ao Instagram. O objetivo é traduzir a identidade da marca em imagem, desejo e presença constante no feed, aproximando o público da decisão de compra.</p>
+
+    <div class="dark sched">
+      <div class="label">ROTINA DE PRODUÇÃO MENSAL</div>
+      <p>Cada ciclo mensal segue o mesmo fluxo, o que dá previsibilidade para a Bueno Watches e mantém o perfil sempre ativo, com 8 vídeos e 10 fotos publicitárias entregues por mês.</p>
+      <div class="grid">
+        <div class="item">Alinhamento de pauta e referências de cada ciclo, com definição das peças do mês</div>
+        <div class="item">1 a 2 diárias de captação por mês, com vídeo e fotos publicitárias na mesma produção</div>
+        <div class="item">Edição, colorização e tratamento dos 8 vídeos e das 10 fotos</div>
+        <div class="item">Entrega dos arquivos finais em 9:16 e 16:9, com 1 rodada de ajustes por peça</div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom"><span>Blue B · Marketing e Vendas</span><b>02</b></div>
+</section>
+
+<!-- ============ 03 · ESCOPO ============ -->
+<section class="page">
+  <div class="top"><img src="logo-dark.png" alt="blue B"><span>Proposta comercial · Bueno Watches</span></div>
+  <div class="body">
+    <div class="eyebrow"><em>02</em><i></i>ESCOPO DAS ENTREGAS</div>
+    <h2 style="margin-bottom:3mm">As entregas <span>mensais</span></h2>
+    <div class="deliv">
+      <div class="row"><div class="n">01</div><h3>Vídeos mensais · Instagram</h3><div class="price">8 por mês</div>
+        <p>Oito vídeos por mês, com cenas do produto e da marca, edição dinâmica, legendas e trilha licenciada, pensados para Reels e Stories. Entrega em 9:16 e 16:9.</p></div>
+      <div class="row"><div class="n">02</div><h3>Fotos publicitárias</h3><div class="price">10 por mês</div>
+        <p>Dez fotos publicitárias por mês, com direção de luz, composição e tratamento profissional, produzidas na mesma captação dos vídeos.</p></div>
+      <div class="row"><div class="n">03</div><h3>Diárias de captação</h3><div class="price">1 a 2 por mês</div>
+        <p>Uma a duas diárias de captação por mês, conforme o padrão blue B, com equipe e equipamentos descritos na seção 04. Data(s) definidas em conjunto no início de cada ciclo.</p></div>
+    </div>
+
+    <h4>Padrão técnico incluso em todas as peças</h4>
+    <div class="checks">
+      <div class="check"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#2864db"/><path d="M5.8 10.3l2.8 2.8 5.6-5.8" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Captação de áudio profissional</div>
+      <div class="check"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#2864db"/><path d="M5.8 10.3l2.8 2.8 5.6-5.8" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Colorização profissional (color grading)</div>
+      <div class="check"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#2864db"/><path d="M5.8 10.3l2.8 2.8 5.6-5.8" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Legendas dinâmicas</div>
+      <div class="check"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#2864db"/><path d="M5.8 10.3l2.8 2.8 5.6-5.8" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Trilha sonora licenciada</div>
+      <div class="check"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#2864db"/><path d="M5.8 10.3l2.8 2.8 5.6-5.8" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>Entrega em 16:9 e 9:16</div>
+      <div class="check"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="10" fill="#2864db"/><path d="M5.8 10.3l2.8 2.8 5.6-5.8" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>1 rodada de ajustes por peça</div>
+    </div>
+  </div>
+  <div class="bottom"><span>Blue B · Marketing e Vendas</span><b>03</b></div>
+</section>
+
+<!-- ============ 04 · INVESTIMENTO ============ -->
+<section class="page">
+  <div class="top"><img src="logo-dark.png" alt="blue B"><span>Proposta comercial · Bueno Watches</span></div>
+  <div class="body">
+    <div class="eyebrow"><em>03</em><i></i>INVESTIMENTO</div>
+    <div class="dark total">
+      <div class="label" style="color:#6f7480">VALOR MENSAL DO PROJETO</div>
+      <div class="big"><s>R$</s><b>2.500</b><span>· por mês · 8 vídeos + 10 fotos publicitárias</span></div>
+      <hr>
+      <p>Pagamento mensal, com vencimento definido no aceite desta proposta. Valores com base na tabela de referência da blue B, sujeitos à confirmação final.</p>
+    </div>
+
+    <div class="lines">
+      <div class="line"><div><b>Produção audiovisual mensal</b><small>8 vídeos para Instagram + 10 fotos publicitárias</small></div><span>R$ 2.500</span></div>
+      <div class="line"><div><b>Captação e equipe de produção</b><small>1 a 2 diárias por mês · equipe e equipamentos blue B</small></div><span>Incluso</span></div>
+      <div class="grand"><b>Total mensal</b><span>R$ 2.500</span></div>
+    </div>
+
+    <div class="bonus">
+      <div class="hd"><b>Incluso no valor mensal</b><span>SEM CUSTOS EXTRAS</span></div>
+      <ul>
+        <li>Captação, edição e finalização dos 8 vídeos</li>
+        <li>Tratamento das 10 fotos publicitárias</li>
+        <li>Equipe de produção e equipamentos blue B</li>
+        <li>1 rodada de ajustes por peça</li>
+      </ul>
+    </div>
+  </div>
+  <div class="bottom"><span>Blue B · Marketing e Vendas</span><b>04</b></div>
+</section>
+
+<!-- ============ 05 · ESTRUTURA & CONDIÇÕES ============ -->
+<section class="page">
+  <div class="top"><img src="logo-dark.png" alt="blue B"><span>Proposta comercial · Bueno Watches</span></div>
+  <div class="body">
+    <div class="eyebrow"><em>04</em><i></i>ESTRUTURA &amp; CONDIÇÕES</div>
+    <h2 style="margin-bottom:2mm">Equipamentos &amp; <span>condições</span></h2>
+    <div class="cards" style="margin-top:3mm">
+      <div class="card"><small>CÂMERA PRINCIPAL</small><b>Sony FX30</b><i>Linha Cinema (Cinema Line)</i></div>
+      <div class="card"><small>CÂMERA SECUNDÁRIA</small><b>Sony A6700</b><i>Cobertura e segunda unidade</i></div>
+      <div class="card"><small>ÓPTICA</small><b>Lentes Prime</b><i>Abertura f/1.4 a f/2.8</i></div>
+      <div class="card"><small>ESTABILIZAÇÃO</small><b>Gimbal DJI RS 4 Pro</b><i>Movimentos suaves e cinematográficos</i></div>
+      <div class="card"><small>AÉREO</small><b>Drone DJI Mini 4</b><i>Tomadas aéreas quando o roteiro pedir</i></div>
+      <div class="card"><small>ILUMINAÇÃO</small><b>Kit completo de iluminação</b><i>Controle de luz em qualquer cenário</i></div>
+      <div class="card"><small>ÁUDIO</small><b>Kit de captação profissional</b><i>Som limpo em depoimentos e cena</i></div>
+      <div class="card"><small>AÇÃO &amp; MOBILIDADE</small><b>GoPro · DJI Osmo Pocket</b><i>Cenas dinâmicas e estabilizadas</i></div>
+      <div class="card"><small>PÓS-PRODUÇÃO</small><b>Color grading + Motion</b><i>Colorização e legendas dinâmicas</i></div>
+    </div>
+
+    <h4 class="t2" style="margin-top:6mm;margin-bottom:0">Condições comerciais</h4>
+    <div class="cards cond" style="margin-top:3.4mm">
+      <div class="card cond"><small>PAGAMENTO</small><b>Mensal · vencimento definido no aceite</b></div>
+      <div class="card cond"><small>AJUSTES</small><b>1 rodada por peça inclusa</b></div>
+      <div class="card cond"><small>CAPTAÇÃO</small><b>1 a 2 diárias por mês</b></div>
+      <div class="card cond"><small>VALIDADE</small><b>7 dias a partir de 13/10/2026</b></div>
+    </div>
+
+    <div class="sign">
+      <b class="t">Aceite e assinatura</b>
+      <p>Ao assinar abaixo, ambas as partes concordam com o escopo, o investimento e as condições descritos nesta proposta comercial.</p>
+      <div class="cols">
+        <div class="l"><b>Blue B · Marketing e Vendas</b><i>Bruno · Data: ___/___/2026</i></div>
+        <div class="l"><b>Bueno Watches</b><i>Representante legal · Data: ___/___/2026</i></div>
+      </div>
+    </div>
+  </div>
+  <div class="contact"><span>(61) 9 2406-6556</span><span>@bluebvendas</span><span>contato@bluebmkt.com.br</span></div>
+  <div class="bottom"><span>Blue B · Marketing e Vendas</span><b>05</b></div>
+</section>
+
+</body>
+</html>
