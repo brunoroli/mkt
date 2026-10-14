@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><link rel="stylesheet" href="../../../../marca/fonts/fonts.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px}
+body{font-family:Arial,Helvetica,sans-serif;position:relative;overflow:hidden}
+body.foto,body.navy{background:#131E2D;color:#fff;--sec:rgba(255,255,255,.82);--bar1:rgba(192,147,75,.8);--bar2:#FFFFFF;--hl:#C0934B}
+body.claro{background:#FFFFFF;color:#131E2D;--sec:rgba(19,30,45,.8);--bar1:rgba(19,30,45,.22);--bar2:#131E2D;--hl:#131E2D}
+body.dourado{background:#C0934B;color:#131E2D;--sec:rgba(19,30,45,.92);--bar1:rgba(19,30,45,.3);--bar2:#131E2D;--hl:#131E2D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(19,30,45,.8) 0%,rgba(19,30,45,.3) 16%,rgba(19,30,45,.2) 30%,rgba(19,30,45,.82) 56%,rgba(19,30,45,.96) 100%)}
+.rotulo{position:absolute;top:84px;left:80px;right:80px;display:flex;justify-content:space-between;align-items:center;font-size:24px;letter-spacing:5px;text-transform:uppercase;color:var(--sec);z-index:3}
+.logo{width:150px;display:block}
+.corpo{position:absolute;left:80px;right:80px;bottom:210px;z-index:3}
+body.claro .corpo,body.dourado .corpo,body.navy .corpo{top:160px;bottom:200px;display:flex;flex-direction:column;justify-content:center}
+.big{margin-left:-.045em;font-family:"Stretch Pro",Arial,sans-serif;font-size:170px;line-height:.95;letter-spacing:.005em;word-spacing:-.3em;white-space:nowrap}
+.u{margin-top:22px;font-size:32px;line-height:1.3;color:var(--sec)}
+.barras{margin-top:52px;display:grid;grid-template-columns:240px 1fr;row-gap:22px;align-items:center;font-size:28px}
+.barras .l{color:var(--sec)}
+.barras .b{display:flex;align-items:center;gap:20px;font-weight:400;font-size:30px}
+.barras .b i{display:block;height:42px;background:var(--bar1)}
+.barras .b.atual i{background:var(--bar2)}
+.u,.frase,.sub{text-wrap:balance}
+.frase{margin-top:64px;font-size:52px;line-height:1.22;font-weight:400;letter-spacing:-.005em}
+.frase .hl{color:var(--hl)}
+body.claro .frase .hl,body.dourado .frase .hl{text-decoration:underline;text-decoration-color:#C0934B;text-decoration-thickness:5px;text-underline-offset:10px}
+body.dourado .frase .hl{text-decoration-color:#FFFFFF}
+.rodape{position:absolute;left:80px;right:80px;bottom:72px;z-index:3;font-size:22px;letter-spacing:2px;line-height:1.35;text-transform:uppercase;color:var(--sec)}
+.rodape .sec{display:flex;justify-content:space-between;margin-top:22px;letter-spacing:4px;font-size:22px;font-weight:400}
+body.foto .rodape .sec,body.navy .rodape .sec{color:#fff}
+body.claro .rodape .sec,body.dourado .rodape .sec{color:#131E2D}
+.rodape .sec span:first-child{border-left:3px solid currentColor;padding-left:16px}
+.ac{font-family:Archivo,sans-serif;font-stretch:125%;font-weight:900;font-size:.98em}
+</style><style>.frase{margin-top:0}.cta{margin-top:72px;font-size:34px;line-height:1.35;color:rgba(255,255,255,.85)}.cta b{display:block;margin-top:28px;font-size:24px;font-weight:400;letter-spacing:6px;color:#C0934B}.handle{margin-top:14px;font-size:30px;font-weight:400;color:rgba(255,255,255,.85)}.logo{width:170px;position:absolute;left:80px;bottom:96px}</style></head><body class="navy">
+<div class="rotulo"><span>Blog B3G Empreendimentos</span></div>
+<div class="corpo">
+  <p class="frase">Uma cidade também se projeta. <span class="hl">Vale ler o projeto antes de morar no resultado.</span></p>
+  <p class="cta">A matéria completa está no nosso blog.<b>LINK NA BIO</b></p>
+  <p class="handle">@b3g_empreendimentos</p>
+</div>
+<img class="logo" src="../../../../marca/logo-b3g-empreendimentos-negativo.png" alt="B3G Empreendimentos">
+</body></html>
