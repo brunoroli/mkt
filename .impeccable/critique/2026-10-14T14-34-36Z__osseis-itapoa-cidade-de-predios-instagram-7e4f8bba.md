@@ -8,6 +8,7 @@ p1_count: 2
 target_identity: "file:/home/user/mkt/b3g-carrosseis/conteudo/carrosseis/itapoa-cidade-de-predios/instagram"
 timestamp: 2026-10-14T14-34-36Z
 slug: osseis-itapoa-cidade-de-predios-instagram-7e4f8bba
+closed: true
 ---
 ⚠️ DEGRADED: single-context (sub-agents not spawned: harness reserves sub-agents for explicit user request)
 
