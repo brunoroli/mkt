@@ -1,25 +1,27 @@
 # Design guide — B3G Empreendimentos
 
-Extraído do site b3gempreendimentos.com.br (arquivo de estilo do tema do site) em 14/10/2026. Confirmar com a marca.
+Fonte: "BrandBook- B3G Empreendimentos.pdf" (Google Drive do Bruno, 15 páginas). Prevalece sobre o que foi extraído do site.
 
-## Cores
-- **Principal (navy):** #131E2D
-- **Navy escuro (fundos):** #0C141F
-- **Navy médio:** #1C2A3C
-- **Destaque (dourado):** #C0934B
-- **Azul secundário:** #125EBD (uso pontual)
-- **Fundo claro (paper):** #FAFAF9
-- **Fundo claro 2:** #F1F1EF
-- **Texto sobre claro:** #131E2D (secundário rgba(19,30,45,.62))
-- **Texto sobre escuro:** #FFFFFF (secundário rgba(255,255,255,.72))
+## Cores (paleta primária, brandbook p. 8)
+- **Dourado:** #C0934B (RGB 192,147,75)
+- **Navy:** #131E2D (RGB 19,30,45)
+- **Azul:** #125EBD (RGB 18,94,189)
+- **Branco:** #FFFFFF
+- Outras cores precisam de aprovação do marketing.
 
-## Tipografia
-- **Títulos e corpo:** Archivo (o site usa pesos finos: display 200, títulos 300)
-- **Apoio editorial (itálico):** Cormorant Garamond (carregada no site)
-
-## Estilo geral
-Editorial, sóbrio, muito respiro, pesos tipográficos leves, dourado com moderação.
+## Tipografia (brandbook p. 9)
+- **Títulos:** Stretch Pro (arquivo em marca/fonts/StretchPro.otf, fora do git por licença).
+  - ATENÇÃO: a Stretch Pro não tem acentos (Á vira A). Nas letras acentuadas usar
+    `<span class="ac">` com Archivo, font-stretch 125%, peso 900.
+- **Textos:** Arial Regular.
 
 ## Logo
-- marca/logo-b3g-branco.png (420x229, versão branca para fundos escuros)
-- Versão para fundo claro: não encontrada no site
+- Versão preferencial: B3G (B e G navy/branco, "3" dourado) + "EMPREENDIMENTOS".
+- marca/logo-b3g-empreendimentos-negativo.png: versão para fundo escuro (branco + dourado, fundo transparente),
+  recortada da página 5 do brandbook. Versão positiva (navy + dourado) ainda não extraída.
+- Proibições (p. 10): não inverter elementos, distorcer, aplicar sombra, aplicar em fundo ilegível,
+  rotacionar, alterar fundo ou cores.
+- Logos da pasta "BRANDBOOK E LOGO/PNG" no Drive ainda dizem "INCORPORADORA": não usar.
+
+## Estilo dos carrosséis
+- Minimalista. Capas com foto aérea real de Itapoá + degradê navy. Sem traço decorativo acima do título.
