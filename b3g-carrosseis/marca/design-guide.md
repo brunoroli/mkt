@@ -34,3 +34,4 @@ Referência: carrossel de mercado com foto de fundo, número gigante e barras co
   ou sublinhado (fundo claro/dourado).
 - **Rodapé:** fonte do dado em caixa alta pequena + "| LEITURA DE MERCADO" e "B3G EMPREENDIMENTOS".
 - Logo só na capa (150px) e no slide final (200px). Sem traço decorativo acima do título.
+- **Linhas número + texto:** número (Stretch Pro) centralizado na altura do texto ao lado (align-items:center).
