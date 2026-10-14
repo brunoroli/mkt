@@ -1,32 +1,34 @@
 # Carrossel: A cidade das casas de praia está subindo
 
 Base: post "Itapoá está deixando de ser cidade de casas de praia" (blog B3G, 01/10/2026)
-Estilo: minimalista · 5 slides · sem foto · CTA: link na bio
+Estilo: leitura de mercado · 5 slides · frase curta por slide (revisão após /impeccable critique, 14/10/2026)
 
-## Slide 1 (capa)
+## Slide 1 (capa, foto orla)
 **A cidade das casas de praia está subindo**
 Por que Itapoá começou a crescer para cima
 
-## Slide 2
-Destaque: **356**
-No primeiro trimestre de 2026, Itapoá vendeu 356 apartamentos novos. No mesmo período de 2025, tinham sido 161. A alta é de 121%, quase quatro apartamentos por dia numa cidade que muita gente ainda conhece pela casa de veraneio.
-Fonte: Brain Inteligência Estratégica para o Sinduscon Joinville, 2026
+## Slide 2 (foto cidade)
+**+121%** em vendas de apartamentos novos, de um ano para o outro
+Barras: jan–mar 2025: 161 · jan–mar 2026: 356
+Quase quatro apartamentos por dia, numa cidade conhecida pela casa de veraneio.
+Fonte: Brain Inteligência Estratégica / Sinduscon Joinville, 2026
 
-## Slide 3
-Destaque: **37.488**
-O motor dessa mudança está no porto. A atividade portuária gera emprego o ano inteiro, e emprego fixo traz morador fixo. O IBGE estima 37.488 habitantes em Itapoá em 2026, contra 30.750 no Censo de 2022.
+## Slide 3 (fundo branco)
+**37.488** moradores estimados em 2026
+Barras: Censo 2022: 30.750 · Estimativa 2026: 37.488
+O motor está no porto: emprego fixo traz morador fixo.
 Fonte: IBGE, Censo 2022 e estimativa populacional 2026
 
-## Slide 4
-Destaque: **R$ 3 bi**
-E o próximo passo já tem valor anunciado. A cooperativa Coamo planeja investir R$ 3 bilhões num novo terminal portuário em Itapoá, com operação prevista para 2030. Por isso, para quem pensa em morar ou investir na cidade, a pergunta passa a ser onde Itapoá vai crescer.
+## Slide 4 (fundo dourado)
+**R$ 3 BI** é o investimento planejado pela cooperativa Coamo num novo terminal, com operação prevista para 2030
+A pergunta agora é onde Itapoá vai crescer.
 Fonte: anúncio da Coamo, noticiado pela imprensa regional
 
-## Slide 5 (CTA)
-Na B3G Empreendimentos, cada projeto começa por essa leitura da cidade. A matéria completa, com os números do mercado e da população, está no nosso blog.
-**Link na bio.**
-Quem acompanha o território entende o próximo movimento antes dos outros.
-[logo B3G]
+## Slide 5 (fundo azul escuro)
+Cada projeto da B3G começa pela leitura da cidade.
+A matéria completa está no nosso blog. LINK NA BIO
+@b3g_empreendimentos
+[logo]
 
 ## Legenda
 Quatro apartamentos vendidos por dia. Em Itapoá. 🏙️
