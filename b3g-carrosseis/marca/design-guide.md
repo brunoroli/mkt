@@ -1,6 +1,6 @@
-# Design guide — B3G Incorporadora
+# Design guide — B3G Empreendimentos
 
-Extraído do site b3gempreendimentos.com.br (tema "b3g-incorporadora", style.css) em 14/10/2026. Confirmar com a marca.
+Extraído do site b3gempreendimentos.com.br (arquivo de estilo do tema do site) em 14/10/2026. Confirmar com a marca.
 
 ## Cores
 - **Principal (navy):** #131E2D
