@@ -23,5 +23,14 @@ Fonte: "BrandBook- B3G Empreendimentos.pdf" (Google Drive do Bruno, 15 páginas)
   rotacionar, alterar fundo ou cores.
 - Logos da pasta "BRANDBOOK E LOGO/PNG" no Drive ainda dizem "INCORPORADORA": não usar.
 
-## Estilo dos carrosséis
-- Minimalista. Capas com foto aérea real de Itapoá + degradê navy. Sem traço decorativo acima do título.
+## Estilo dos carrosséis ("leitura de mercado")
+Referência: carrossel de mercado com foto de fundo, número gigante e barras comparativas.
+- **Com foto:** foto real em tela cheia + degradê navy (escuro no topo e embaixo), texto branco.
+- **Sem foto:** fundo chapado, intercalando **branco**, **navy #131E2D** e **dourado #C0934B**.
+- **Topo:** rótulo pequeno em caixa alta e espaçado ("ITAPOÁ · TEMA").
+- **Número principal:** Stretch Pro, 160–190px, com unidade/contexto ao lado em Arial.
+- **Barras:** comparação antes/depois, rótulo à esquerda e valor à direita da barra.
+- **Texto:** Arial 40px; primeira frase em negrito; destaque em dourado (fundo escuro)
+  ou sublinhado (fundo claro/dourado).
+- **Rodapé:** fonte do dado em caixa alta pequena + "| LEITURA DE MERCADO" e "B3G EMPREENDIMENTOS".
+- Logo só na capa (150px) e no slide final (200px). Sem traço decorativo acima do título.
