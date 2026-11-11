@@ -1,7 +1,7 @@
 ---
 titulo: "Itapoá lançou 556 apartamentos em seis meses"
 slug: itapoa-lancou-556-apartamentos-em-seis-meses
-categoria: Mercado
+categoria: Território
 resumo: "No primeiro semestre de 2026, os lançamentos de apartamentos em Itapoá cresceram 265,8% e as vendas, 72,8%. O que os números do Sinduscon Joinville mostram sobre a cidade."
 fonte: "Sinduscon Joinville, via ND Mais (Yasmin Rech), 04/11/2026: https://ndmais.com.br/economia/negocios/cidade-de-praias-vive-boom-imobiliario-lancamentos-apartamentos-crescem/"
 status: rascunho
@@ -38,4 +38,4 @@ Crescimento rápido pede leitura cuidadosa. Nos próximos meses, vale observar s
 Itapoá fica a cerca de 80 km de Joinville e 135 km de Curitiba, com 32 km de praias. Os números do semestre mostram que cada vez mais gente está escolhendo a cidade para morar, e não só para passar o verão.
 
 ---
-*Fonte dos dados: Sinduscon Joinville, divulgados pelo ND Mais em 04/11/2026.*
+*Fonte dos dados: Sinduscon Joinville, divulgados pelo [ND Mais](https://ndmais.com.br/economia/negocios/cidade-de-praias-vive-boom-imobiliario-lancamentos-apartamentos-crescem/) em 04/11/2026.*
