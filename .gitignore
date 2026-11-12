@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# B3G Instagram (token da Meta)
+b3g/instagramb3g/config.php
