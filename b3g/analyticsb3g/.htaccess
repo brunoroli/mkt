@@ -1,0 +1,5 @@
+# Defesa extra: nunca servir chaves ou configs, mesmo que alguém copie para esta pasta por engano.
+<FilesMatch "\.(json|env|sample\.php)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes
