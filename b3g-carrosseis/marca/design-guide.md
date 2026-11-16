@@ -31,7 +31,7 @@ Referência: carrossel de mercado com foto de fundo, número gigante e barras co
 - **Número principal:** Stretch Pro, 160–190px, com unidade/contexto ao lado em Arial.
 - **Barras:** comparação antes/depois, rótulo à esquerda e valor à direita da barra.
 - **Texto:** Arial 40px; primeira frase em negrito; destaque em dourado (fundo escuro)
-  ou sublinhado (fundo claro/dourado).
+  ou sublinhado orgânico em traço de pincel (SVG, ver .hl em novo-diamante) no fundo claro/dourado. Nada de linha reta.
 - **Rodapé:** fonte do dado em caixa alta pequena + "| LEITURA DE MERCADO" e "B3G EMPREENDIMENTOS".
 - Logo só na capa (150px) e no slide final (200px). Sem traço decorativo acima do título.
 - **Linhas número + texto:** número (Stretch Pro) centralizado na altura do texto ao lado (align-items:center).
