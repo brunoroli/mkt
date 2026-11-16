@@ -22,14 +22,15 @@ body.claro .corpo,body.dourado .corpo,body.navy .corpo{top:160px;bottom:200px;di
 .u,.frase,.sub{text-wrap:balance}
 .frase{margin-top:64px;font-size:52px;line-height:1.22;font-weight:400;letter-spacing:-.005em}
 .frase .hl{color:var(--hl)}
-body.claro .frase .hl,body.dourado .frase .hl{text-decoration:underline;text-decoration-color:#C0934B;text-decoration-thickness:5px;text-underline-offset:10px}
-body.dourado .frase .hl{text-decoration-color:#FFFFFF}
+body.claro .frase .hl,body.dourado .frase .hl{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 24' preserveAspectRatio='none'%3E%3Cpath fill='%23C0934B' d='M4 17 C 40 11, 90 8, 150 12 C 210 16, 260 9, 320 8 C 350 7, 375 5, 396 3 C 399 5, 399 9, 394 11 C 370 13, 345 14, 318 15 C 262 17, 214 22, 150 19 C 96 16, 48 18, 8 23 C 2 23, 0 19, 4 17 Z'/%3E%3C/svg%3E") no-repeat 0 100%/100% 22px;padding-bottom:18px;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+body.dourado .frase .hl{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 24' preserveAspectRatio='none'%3E%3Cpath fill='%23FFFFFF' d='M4 17 C 40 11, 90 8, 150 12 C 210 16, 260 9, 320 8 C 350 7, 375 5, 396 3 C 399 5, 399 9, 394 11 C 370 13, 345 14, 318 15 C 262 17, 214 22, 150 19 C 96 16, 48 18, 8 23 C 2 23, 0 19, 4 17 Z'/%3E%3C/svg%3E")}
 .rodape{position:absolute;left:80px;right:80px;bottom:72px;z-index:3;font-size:22px;letter-spacing:2px;line-height:1.35;text-transform:uppercase;color:var(--sec)}
 .rodape .sec{display:flex;justify-content:space-between;margin-top:22px;letter-spacing:4px;font-size:22px;font-weight:400}
 body.foto .rodape .sec,body.navy .rodape .sec{color:#fff}
 body.claro .rodape .sec,body.dourado .rodape .sec{color:#131E2D}
 .rodape .sec span:first-child{border-left:3px solid currentColor;padding-left:16px}
 .ac{font-family:Archivo,sans-serif;font-stretch:125%;font-weight:900;font-size:.98em}
+body.claro::after,body.dourado::after,body.navy::after{content:'';position:absolute;inset:0;pointer-events:none;z-index:60;background:url(../../../../marca/textura-papel.svg) 0 0/1080px 1350px;mix-blend-mode:multiply;opacity:.22}body.navy::after{mix-blend-mode:soft-light;opacity:.55}
 </style></head><body class="claro">
 <div class="rotulo"><span>Porto Itapoá · Empregos</span></div>
 <div class="corpo">

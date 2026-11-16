@@ -32,6 +32,7 @@ Referência: carrossel de mercado com foto de fundo, número gigante e barras co
 - **Barras:** comparação antes/depois, rótulo à esquerda e valor à direita da barra.
 - **Texto:** Arial 40px; primeira frase em negrito; destaque em dourado (fundo escuro)
   ou sublinhado orgânico em traço de pincel (SVG, ver .hl em novo-diamante) no fundo claro/dourado. Nada de linha reta.
+- **Textura de papel:** slides de fundo chapado (claro, dourado, navy) levam marca/textura-papel.svg por cima (multiply .22; soft-light .55 no navy).
 - **Rodapé:** fonte do dado em caixa alta pequena + "| LEITURA DE MERCADO" e "B3G EMPREENDIMENTOS".
 - Logo só na capa (150px) e no slide final (200px). Sem traço decorativo acima do título.
 - **Linhas número + texto:** número (Stretch Pro) centralizado na altura do texto ao lado (align-items:center).
